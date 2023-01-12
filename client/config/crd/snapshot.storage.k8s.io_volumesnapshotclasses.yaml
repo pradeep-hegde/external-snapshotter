@@ -10,6 +10,7 @@ metadata:
   name: volumesnapshotclasses.snapshot.storage.k8s.io
 spec:
   group: snapshot.storage.k8s.io
+  preserveUnknownFields: false
   names:
     kind: VolumeSnapshotClass
     listKind: VolumeSnapshotClassList
